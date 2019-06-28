@@ -31,9 +31,16 @@ main {
 a[href^="photos"] {
     margin: 10px 3px;
 }
+
+.image-thumbnail {
+    width: 100%;
+}
+
+.image-link {
+    width: 180px;
+}
+
 /* Lightbox Manual Styles */
-
-
 .lb-data .lb-caption {
     font-size: 16px;
     font-weight: normal;
