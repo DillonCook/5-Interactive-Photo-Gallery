@@ -1,0 +1,53 @@
+header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+input {
+    width: 350px;
+    line-height: 2;
+    border: none;
+    box-shadow: 0 0 5px 0 gray;
+    border-radius: 5px;
+    text-indent: 10px;
+    color: rgb(4, 33, 192);
+}
+
+input:focus {
+    border: 2px solid rgb(11, 179, 235);
+}
+
+main {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 900px;
+}
+
+a[href^="photos"] {
+    margin: 10px 3px;
+}
+/* Lightbox Manual Styles */
+
+
+.lb-data .lb-caption {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+.lb-outerContainer {
+    margin: 50px auto 0;
+}
+
+
+/* Media Query */
+
+@media (max-width: 450px) {
+    input {
+        width: 225px;
+    }
+}
