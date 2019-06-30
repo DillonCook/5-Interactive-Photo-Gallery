@@ -57,4 +57,11 @@ a {
     input {
         width: 225px;
     }
+    .lightboxOverlay {
+        max-width: 100%;
+    }
+    .lb-next,
+    .lb-prev {
+        margin: 0;
+    }
 }

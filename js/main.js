@@ -7,7 +7,7 @@ const searchFilter = document.querySelector(".search-gallery").addEventListener(
         let a = document.getElementsByTagName("a")
     
         for (let i = 0; i < a.length; i ++){
-            let content = a[i].getAttribute("data-search").toLowerCase();
+            let content = a[i].getAttribute("data-title").toLowerCase();
             
             if (content.includes(input)){
                 a[i].style.display = '';
