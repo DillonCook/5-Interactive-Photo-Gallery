@@ -4,7 +4,7 @@ header {
 }
 
 input {
-    width: 350px;
+    width: 225px;
     line-height: 2;
     border: none;
     box-shadow: 0 0 5px 0 gray;
@@ -34,6 +34,9 @@ a {
 
 .image-thumbnail {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px -2px black;
+    border: 3px white solid;
 }
 
 .image-link {
@@ -50,16 +53,22 @@ a {
     margin: 50px auto 0;
 }
 
+.lightboxOverlay {
+    max-width: 100%;
+}
+
+.lb-next,
+.lb-prev {
+        margin: 0;
+    }
 
 /* Media Query */
 
-@media (max-width: 450px) {
+@media (min-width: 768px) {
     input {
-        width: 225px;
+        width: 350px;
     }
-    .lightboxOverlay {
-        max-width: 100%;
-    }
+
     .lb-next,
     .lb-prev {
         margin: 0;
